@@ -1,16 +1,15 @@
 <snippet>
 	<content><![CDATA[
-	switch(n)
-	{
-	case 1:
-	  execute code block 1
-	  break;
-	case 2:
-	  execute code block 2
-	  break;
-	default:
-	  //code to be executed if n is different from case 1 and 2
-	}	
+	switch(n) {
+		case 1:
+		  // execute code block 1
+		  break;
+		case 2:
+		  // execute code block 2
+		  break;
+		default:
+		  //code to be executed if n is different from case 1 and 2
+	}		
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>switch</tabTrigger>
